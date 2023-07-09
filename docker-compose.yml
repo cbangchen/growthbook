@@ -18,6 +18,7 @@ services:
       - API_HOST=http://117.50.177.86:2100
       - NODE_ENV=production
       - JWT_SECRET=WSNRbsw123
+      - ENCRYPTION_KEY=WSNRbsw123aot234qw
     volumes:
       - uploads:/usr/local/src/app/packages/back-end/uploads
 volumes:
